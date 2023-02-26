@@ -7,6 +7,18 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 // Swiper Rumah
+var swiperRumah = new Swiper(".rumah__container", {
+    spaceBetween: 32,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: true,
+
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
 // Accordion Keunggulan
 

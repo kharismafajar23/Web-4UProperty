@@ -15,6 +15,7 @@
     />
 
     <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -111,11 +112,120 @@
       <!-- Home Section End -->
 
       <!-- Logo Section Start -->
-      <section class="logo section"></section>
+      <section class="logo section">
+        <div class="logo__container container grid">
+          <div class="logo__img">
+            <img src="assets/images/logo1.png" alt="" />
+          </div>
+          <div class="logo__img">
+            <img src="assets/images/logo2.png" alt="" />
+          </div>
+          <div class="logo__img">
+            <img src="assets/images/logo3.png" alt="" />
+          </div>
+          <div class="logo__img">
+            <img src="assets/images/logo4.png" alt="" />
+          </div>
+        </div>
+      </section>
       <!-- Logo Section End -->
 
       <!-- Rumah Populer Section Start -->
-      <section class="rumah section" id="pilihan"></section>
+      <section class="rumah section" id="pilihan">
+        <div class="container">
+          <span class="section__subtitle">Pilihan Terbaik</span>
+          <h2 class="section__title">Rumah Terpopuler<span>.</span></h2>
+
+          <div class="rumah__container swiper">
+            <div class="swiper-wrapper">
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house1.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span> 250.000.000</h2>
+                  <h3 class="rumah__nama">Damai Village</h3>
+
+                  <p class="rumah__description">
+                    Jalan Merdeka, Sleman, Yogyakarta, Daerah Istimewa
+                    Yogyakarta
+                  </p>
+                </div>
+              </article>
+
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house2.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span>200.000.000</h2>
+                  <h3 class="rumah__nama">Makmur Abadi Village</h3>
+
+                  <p class="rumah__description">
+                    Jalan Soekarno Hatta, Banyuurip, Purworejo, Jawa Tengah
+                  </p>
+                </div>
+              </article>
+
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house3.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span> 230.000.000</h2>
+                  <h3 class="rumah__nama">Guyup Rukun House</h3>
+
+                  <p class="rumah__description">
+                    Jalan Abadi Jaya, Magelang, Jawa Tengah
+                  </p>
+                </div>
+              </article>
+
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house4.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span> 180.000.000</h2>
+                  <h3 class="rumah__nama">Asri Jaya</h3>
+
+                  <p class="rumah__description">
+                    Jalan Padepokan, Mekar Arum, Pacitan, Jawa Timur
+                  </p>
+                </div>
+              </article>
+
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house5.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span>160.000.000</h2>
+                  <h3 class="rumah__nama">Golden Living</h3>
+
+                  <p class="rumah__description">
+                    Jalan Perdamaian, Bandung, Jawa Barat
+                  </p>
+                </div>
+              </article>
+
+              <article class="rumah__card swiper-slide">
+                <img src="assets/images/house6.png" alt="" class="rumah__img" />
+
+                <div class="rumah__data">
+                  <h2 class="rumah__harga"><span>Rp</span>190.000.000</h2>
+                  <h3 class="rumah__nama">Dream Living</h3>
+
+                  <p class="rumah__description">
+                    Jalan Persemaian, Depok, Jawa Barat
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-button-next">
+              <i class="bx bx-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="bx bx-chevron-left"></i>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Rumah Populer Section End -->
 
       <!-- Keunggulan Start -->
@@ -136,7 +246,7 @@
     <script src=""></script>
 
     <!-- Swiper JS -->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
