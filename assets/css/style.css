@@ -1005,6 +1005,11 @@ body.dark-theme {
 
 /* Large Device */
 @media screen and (min-width: 1023px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .section {
     padding: 7.5rem 0 1rem;
   }
