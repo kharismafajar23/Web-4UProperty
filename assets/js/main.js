@@ -101,3 +101,16 @@ themeButton.addEventListener('click', () => {
 })
 
 // Scroll Reveal Anim
+const anim = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: '2500',
+  delay: '400'
+})
+
+anim.reveal('.home__title')
+anim.reveal('.home__description', {delay: 500})
+anim.reveal('.home__search', {delay: 600})
+anim.reveal('.home__value', {delay: 700})
+anim.reveal('.home__images', {delay: 800, origin: 'bottom'})
+anim.reveal('.logo__img', {interval: 100})
